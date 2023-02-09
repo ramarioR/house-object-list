@@ -1,0 +1,29 @@
+.pagination {
+    display: flex;
+
+    margin-top: 24px;
+
+    &__btn {
+        background: #fff;
+        border: 1px solid #000;
+        border-radius: 4px;
+
+        padding: 7px 10px;
+
+        line-height: 1;
+        color: #000;
+
+        text-decoration: none;
+        
+        cursor: pointer;
+
+        &.is_active {
+            background: teal;
+            color: #fff;
+        }
+
+        & + & {
+            margin-left: 8px;
+        }
+    }
+}

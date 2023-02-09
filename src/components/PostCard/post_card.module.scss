@@ -1,0 +1,40 @@
+.post_card {
+    display: block;
+
+    border: 1px solid #404040;
+    border-radius: 8px;
+
+    padding: 14px;
+
+    text-decoration: none;
+
+    font-family: sans-serif;
+
+    &:hover {
+        .title {
+            color: teal;
+        }
+    }
+
+    & + & {
+        margin-top: 20px;
+    }
+
+    .title {
+        font-size: 20px;
+
+        color: #000;
+        text-transform: capitalize;
+
+        transition: color .2s;
+    }
+
+    .text {
+        font-size: 14px;
+        color: #404040;
+
+        text-transform: capitalize;
+
+        margin-top: 10px;
+    }
+}
