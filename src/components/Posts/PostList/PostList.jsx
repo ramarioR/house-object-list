@@ -1,9 +1,9 @@
 import { getPosts } from "@/service/posts";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react"
-import Pagination from "../Pagination/Pagination"
-import PostCard from "../PostCard/PostCard"
-import Container from "../ui/Container/Container";
+import Pagination from "../../Pagination/Pagination"
+import PostCard from "../../PostCard/PostCard"
+import Container from "../../ui/Container/Container";
 
 
 export default function PostList({serverPosts, totalPages, activePage}) {

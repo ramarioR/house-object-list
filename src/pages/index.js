@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
-import PostList from '@/components/PostList/PostList'
+import PostList from '@/components/Posts/PostList/PostList'
 import { getPosts } from '@/service/posts'
 import { useEffect } from 'react'
 import Pagination from '@/components/Pagination/Pagination'
